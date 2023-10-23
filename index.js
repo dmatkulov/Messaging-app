@@ -75,7 +75,7 @@ const displayMessages = async () => {
     }
 };
 
-displayMessages().catch(e => console.log('IN CATCH ', e));
+displayMessages();
 
 // Отправка сообщения
 form.addEventListener('submit', async (event) => {
